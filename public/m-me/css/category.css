@@ -1,0 +1,61 @@
+.my-content {
+	position: fixed;
+	top: 44px;
+	left: 0;
+	bottom: 50px;
+	width: 100%;
+	background: #f5f5f5;
+}
+.my-content .category-left {
+	height: 100%;
+	width: 80px;
+	float: left;
+	position: relative;
+}
+.my-content .category-right {
+	height: 100%;
+	margin-left: 90px;
+	position: relative;
+
+}
+.my-content .category-left .links {
+	background: #fff;
+}
+.my-content .category-left a {
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	font-size: 14px;
+    color: #000;
+
+}
+.my-content .category-left .active {
+    background: #f5f5f5;
+    border-right: 1px solid transparent;
+}
+
+.category-right .brand-links {
+	background: #fff;
+	margin-top: 10px;
+}
+.category-right li {
+	float: left;
+    width: 33.333%;
+}
+.category-right li a {
+	display: block;
+}
+.category-right li a img {
+	width: 100%;
+}
+.category-right li a p {
+	text-align: center;
+}
+.category-right .no-result {
+	font-size: 14px;
+	color: red;
+	padding: 5px;
+}
